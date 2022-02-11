@@ -1,5 +1,9 @@
 import React from "react";
 
-export const Header = () => {
-  return <div>Header, Header, Header</div>;
+type Props = {
+  color?: string;
+};
+
+export const Header = (pros: Props) => {
+  return <div style={{background: pros.color}}>Header, Header, Header</div>;
 };

@@ -4,10 +4,10 @@ import { Header } from "./Header";
 function App() {
   return (
     <div>
+      <Header color={"green"} />
       <Header />
-      <Header />
-      <Header />
-        sdxvsdfsdz
+      <Header color={"red"}/>
+      sdxvsdfsdz
       <Header />
     </div>
   );
