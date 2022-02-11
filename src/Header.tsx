@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { UserView } from "./UserView";
 
 type Props = {
   color?: string;
@@ -25,6 +26,7 @@ export const Header = (pros: Props) => {
       {number2}
       <br />
       <button onClick={() => click()}>Click me</button>
+      <UserView />
     </div>
   );
 };
