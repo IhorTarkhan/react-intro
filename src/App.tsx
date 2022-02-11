@@ -5,10 +5,6 @@ function App() {
   return (
     <div>
       <Header color={"green"} />
-      <Header />
-      <Header color={"red"}/>
-      sdxvsdfsdz
-      <Header />
     </div>
   );
 }
