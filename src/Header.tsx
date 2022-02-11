@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { UserView } from "./UserView";
+import { TestInput } from "./TestInput";
 
 type Props = {
   color?: string;
@@ -27,6 +28,7 @@ export const Header = (pros: Props) => {
       <br />
       <button onClick={() => click()}>Click me</button>
       <UserView />
+      <TestInput />
     </div>
   );
 };
